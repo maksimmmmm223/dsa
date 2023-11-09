@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(200, 236, 224);
+    justify-content: center;
+}
+.nav{
+    width: 80%;
+    background-color: white;
+    margin-left: 200px;
+    border-radius: 20px;
+    font-style: italic;
+
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav li{
+    list-style: none;
+    padding: 20px;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+
+
+form{
+    width: 20%;
+    float: right;
+    display: flex;
+}
+
+input{
+    padding: 10px 20px;
+    border: 1px;
+    font-size: 20px;
+}
+
+.search{
+    width: 20%;
+}
+
+.button{
+    width: 25%;
+    background-color: rgb(197, 226, 220);
+    color: aliceblue;
+
+}
+
+.button:hover{
+    cursor: pointer ;
+    background-color: aquamarine;
+    color: rgb(232, 213, 213);
+}
+
+.img_button{
+    height: 1em;
+    position: left;
+}
+.img_button:hover{
+    cursor: pointer;
+}
